@@ -1,14 +1,11 @@
 {
-  "name": "ngHandsontable",
+  "name": "ngHandsontable-myssteriion",
   "dependencies": {
     "angular": "~1.4",
-    "handsontable": "~0.24.0"
+    "handsontable-myssteriion": "0.24.3.1"
   },
-  "homepage": "https://github.com/handsontable/ngHandsontable",
-  "authors": [
-    "Handsoncode",
-    "Handsoncode <hello@handsontable.com>"
-  ],
+  "homepage": "https://github.com/myssteriion/ngHandsontable",
+  "author": "Myssteriion <myssteriion@hotmail.com>",
   "description": "AngularJS directive for Handsontable",
   "main": "dist/ngHandsontable.js",
   "keywords": [

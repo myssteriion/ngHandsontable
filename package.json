@@ -1,16 +1,16 @@
 {
-  "name": "ngHandsontable",
+  "name": "ngHandsontable-myssteriion",
   "description": "AngularJS directive for Handsontable",
   "homepage": "https://github.com/handsontable/ngHandsontable",
   "repository": {
     "type": "git",
-    "url": "https://github.com/handsontable/ngHandsontable.git"
+    "url": "https://github.com/myssteriion/ngHandsontable.git"
   },
   "bugs": {
-    "url": "https://github.com/handsontable/ngHandsontable/issues"
+    "url": "https://github.com/myssteriion/ngHandsontable/issues"
   },
-  "author": "Marcin Warpechowski <hello@handsontable.com>",
-  "version": "0.11.1",
+  "author": "Myssteriion <myssteriion@hotmail.com>",
+  "version": "0.11.1.1",
   "devDependencies": {
     "angular": "^1.5.0",
     "angular-mocks": "^1.5.0",
