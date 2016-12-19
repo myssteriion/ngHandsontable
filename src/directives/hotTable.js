@@ -147,6 +147,10 @@
               settingFactory.updateHandsontableSettings(scope.hotInstance, scope.htSettings);
             }
           });
+
+          element.on('$destroy', function() {
+            settingFactory.destroy(scope.htSettings.hotId);
+          });
         };
       }
     };

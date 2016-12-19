@@ -1,11 +1,11 @@
 /**
- * ngHandsontable 0.11.1
+ * ngHandsontable-myssteriion 0.11.1
  * 
  * Copyright 2012-2015 Marcin Warpechowski
  * Copyright 2015 Handsoncode sp. z o.o. <hello@handsontable.com>
  * Licensed under the MIT license.
  * https://github.com/handsontable/ngHandsontable
- * Date: Fri May 20 2016 09:23:23 GMT+0200 (CEST)
+ * Date: Mon Dec 19 2016 11:32:10 GMT+0100 (CET)
 */
 
 if (document.all && !document.addEventListener) { // IE 8 and lower
@@ -144,6 +144,14 @@ Handsontable.hooks.add('afterContextMenuShow', function() {
         }
 
         return hot;
+      },
+
+      /**
+       * destroy
+       */
+      destroy: function(hotId) {
+        hotRegisterer.getInstance(hotId).destroy();
+        hotRegisterer.removeInstance(hotId);
       },
 
       /**
@@ -596,6 +604,10 @@ Handsontable.hooks.add('afterContextMenuShow', function() {
               scope.htSettings.data = scope.datarows;
               settingFactory.updateHandsontableSettings(scope.hotInstance, scope.htSettings);
             }
+          });
+
+          element.on('$destroy', function() {
+            settingFactory.destroy(scope.htSettings.hotId);
           });
         };
       }

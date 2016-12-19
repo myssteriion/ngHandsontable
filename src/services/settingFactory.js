@@ -46,6 +46,14 @@
       },
 
       /**
+       * destroy
+       */
+      destroy: function(hotId) {
+        hotRegisterer.getInstance(hotId).destroy();
+        hotRegisterer.removeInstance(hotId);
+      },
+
+      /**
        * Set new settings to handsontable instance.
        *
        * @param {Handsontable} instance
