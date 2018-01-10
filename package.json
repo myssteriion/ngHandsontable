@@ -10,7 +10,7 @@
     "url": "https://github.com/myssteriion/ngHandsontable/issues"
   },
   "author": "Myssteriion <myssteriion@hotmail.com>",
-  "version": "0.11.1.2",
+  "version": "0.11.1.3",
   "devDependencies": {
     "angular": "^1.5.0",
     "angular-mocks": "^1.5.0",

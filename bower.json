@@ -2,7 +2,7 @@
   "name": "ngHandsontable-myssteriion",
   "dependencies": {
     "angular": "~1.4",
-    "handsontable-myssteriion": "0.24.3.1"
+    "handsontable-myssteriion": "0.24.3.2"
   },
   "homepage": "https://github.com/myssteriion/ngHandsontable",
   "author": "Myssteriion <myssteriion@hotmail.com>",
